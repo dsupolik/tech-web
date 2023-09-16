@@ -49,12 +49,12 @@
   <summary>Obsah</summary>
   <ol>
     <li>
-      <a href="#about-the-project">O tomto projektu</a>
+      <a href="#o-tomto-projektu">O tomto projektu</a>
     </li>
-    <li><a href="#roadmap">Co dále?</a></li>
-    <li><a href="#contributing">Přispívání</a></li>
-    <li><a href="#contact">Kontakt</a></li>
-    <li><a href="#acknowledgments">Poděkování</a></li>
+    <li><a href="#co-dále?">Co dále?</a></li>
+    <li><a href="#přispívání">Přispívání</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+    <li><a href="#poděkování">Poděkování</a></li>
   </ol>
 </details>
 
