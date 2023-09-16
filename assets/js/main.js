@@ -70,3 +70,24 @@ function scrollActive() {
   })
 }
 window.addEventListener("scroll", scrollActive)
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  distance: "60px",
+  duration: 2000,
+  delay: 400,
+  // reset: true
+})
+
+sr.reveal(`.home__header, .section__title`, { delay: 600 })
+sr.reveal(`.home__footer`, { delay: 700 })
+sr.reveal(`.home__img`, { delay: 900, origin: "top" })
+
+sr.reveal(`.feature__img, .footer__content, .footer__copy`, {
+  origin: "top",
+  interval: 100,
+})
+sr.reveal(`.specs__data, .goto__animate`, { origin: "left", interval: 100 })
+sr.reveal(`.specs__img, .goto__img`, { origin: "right" })
+sr.reveal(`.about__img`, { origin: "top" })
+sr.reveal(`.about__data`)
